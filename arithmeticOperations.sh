@@ -17,3 +17,7 @@ echo "Result:" $resultOne
 
 resultTwo=`echo "scale=2;$thirdInput + $firstInput / $secondInput " | bc`
 echo "Result:" $resultTwo
+#op4
+
+resultThree=`echo "scale=2;$firstInput % $secondInput + $thirdInput" | bc`
+echo "Result:" $resultThree
