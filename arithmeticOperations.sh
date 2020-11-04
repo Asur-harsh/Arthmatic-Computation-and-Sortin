@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash/
 echo "--------------------------------Arithmetic Compution And Sorting ----------------------------------"
 
 #TO TAKING INPUT FROM USER
