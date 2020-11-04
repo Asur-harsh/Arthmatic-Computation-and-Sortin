@@ -10,5 +10,10 @@ read -p "Enter third input :" thirdInput
 result=`echo "scale=2;$firstInput + $secondInput * $thirdInput" | bc`
 echo "Result:" $result
 #op2
+
 resultOne=`echo "scale=2;$firstInput * $secondInput + $thirdInput" | bc`
 echo "Result:" $resultOne
+#op3
+
+resultTwo=`echo "scale=2;$thirdInput + $firstInput / $secondInput " | bc`
+echo "Result:" $resultTwo
