@@ -21,3 +21,9 @@ echo "Result:" $resultTwo
 
 resultThree=`echo "scale=2;$firstInput % $secondInput + $thirdInput" | bc`
 echo "Result:" $resultThree
+
+#TO STORE THE DICTIONARY
+arithmaticOperation[result]=$result
+arithmaticOperation[resultOne]=$resultOne
+arithmaticOperation[resultTwo]=$resultTwo
+arithmaticOperation[resultThree]=$resultThree
